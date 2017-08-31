@@ -38,10 +38,11 @@ BaseQuickAdapter真的很强大，解决了很多RecyclerView的实际需求，�
 这个小项目没有特别的技术难点，唯一的难点度不在于APP，而是查询网站令人蛋疼的编码，全部采用GBK编码，而且对请求和请求体有一些特殊要求。请求时需要加上这些参数，查询的文字需要用UrlEncode进行GBK编码，然后再和key拼起来。探索这结东西花了些时间。
 
 ## 花瓣
-![](http://upload-images.jianshu.io/upload_images/1281203-fb584fa0da520ec4.gif?imageMogr2/auto-orient/strip)
-![](http://upload-images.jianshu.io/upload_images/1281203-1b7e37312ac8a70b.gif?imageMogr2/auto-orient/strip)
-![](http://upload-images.jianshu.io/upload_images/1281203-f430ea302a8643dc.gif?imageMogr2/auto-orient/strip)
-![](http://upload-images.jianshu.io/upload_images/1281203-60b70ae21a34631b.gif?imageMogr2/auto-orient/strip)
+
+![1](http://upload-images.jianshu.io/upload_images/1281203-fb584fa0da520ec4.gif?imageMogr2/auto-orient/strip)
+![2](http://upload-images.jianshu.io/upload_images/1281203-1b7e37312ac8a70b.gif?imageMogr2/auto-orient/strip)
+![3](http://upload-images.jianshu.io/upload_images/1281203-f430ea302a8643dc.gif?imageMogr2/auto-orient/strip)
+![4](http://upload-images.jianshu.io/upload_images/1281203-60b70ae21a34631b.gif?imageMogr2/auto-orient/strip)
 
 花瓣APP也算了个中型的APP了，我是按照Github的花瓣 开源项目来写的，主是要学习里面的架构写法。实现了收集，登录，喜欢，搜索等功能，原作者说全部采用目前最新的和最热门技术。所以还是有一定有学习价值的。你可以把我写的这个看成是Kotlin的实现版本。但是里面关于Fragment的实现机制不一样，我用了BaseQuickAdapter,所以会比较简单些。
 
